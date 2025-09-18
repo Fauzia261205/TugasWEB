@@ -32,7 +32,7 @@ main {
 header {
   text-align: center;
   padding: 50px 20px 30px;
-  background: linear-gradient(135deg, #eec4ce, #b8355c); /* pink pastel gradasi */
+  background: #f0d0d7; 
   color: white;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -79,4 +79,5 @@ footer {
   color: #777;
   border-top: 1px solid #f9c6d5;
 }
+
 
