@@ -1,0 +1,82 @@
+/* Import font modern */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Umum */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff7fa;              
+  color: #444;
+  line-height: 1.7;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* Foto Profil */
+.foto-profil {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;               
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  display: block;
+  margin: 0 auto 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 50px 20px 30px;
+  background: linear-gradient(135deg, #eec4ce, #b8355c); /* pink pastel gradasi */
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+header p {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+  opacity: 0.95;
+}
+
+h2 {
+  border-bottom: 2px solid #b8355c;
+  padding-bottom: 5px;
+  color: #b98697; /* judul section warna pink tua lembut */
+  margin-top: 0;
+}
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Link */
+a {
+  color: #b98697;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #b98697;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #fdeaf1;
+  font-size: 0.9rem;
+  color: #777;
+  border-top: 1px solid #f9c6d5;
+}
+
